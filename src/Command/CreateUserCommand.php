@@ -14,7 +14,7 @@ class CreateUserCommand extends Command
 
     /** @var Auth */
     private $auth;
-
+    private $auth_new;
     public function __construct(Auth $auth)
     {
         $this->auth = $auth;
